@@ -23,4 +23,4 @@ WORKDIR /relaysrv
 
 EXPOSE 22067 22070
 
-CMD ["/usr/bin/strelaysrv"]
+CMD ["/usr/bin/strelaysrv -pools=\"\""]
